@@ -1,0 +1,143 @@
+@font-face {
+    font-family: header-logo-text;
+    src: url(fonts/header-logo-text.woff2);
+}
+
+@font-face {
+    font-family: header-title;
+    src: url(fonts/header-title.woff2);
+}
+
+@font-face {
+    font-family: main-text-100;
+    src: url(fonts/main-text-100.woff2);
+}
+
+@font-face {
+    font-family: main-text-300;
+    src: url(fonts/main-text-300.woff2);
+}
+
+@font-face {
+    font-family: main-text-date;
+    src: url(fonts/main-text-date.woff2);
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    background-color: #1b1b1b;
+    padding: 2.5% 3%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 2.8vw;
+}
+
+.header__text {
+    font-size: 1.56vw;
+    font-family: header-logo-text;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    color: #dbdbdb;
+    letter-spacing: 2px;
+}
+
+.main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.main__title {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9.8%;
+}
+
+.main__title span {
+    font-size: 6.8vw;
+    font-weight: 400;
+    font-family: header-title;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1.4px rgb(219, 219, 219);
+    -webkit-text-fill-color: transparent;
+
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__img {
+    padding-bottom: 40px;
+}
+
+.main__img img {
+    width: 27.1vw;
+}
+
+.main__text p:nth-child(1) {
+    /* display: flex;
+    flex-direction: column; */
+    font-family: main-text-100;
+    font-size: 1.75vw;
+    color: #dbdbdb;
+    padding-bottom: 25px;
+}
+
+
+.main__text p:nth-child(2) {
+    font-family: main-text-date;
+    color: #dbdbdb;
+    padding-bottom: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__button{
+    padding: 3% 10.7%;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+.main__button a {
+    cursor: pointer;
+    font-family: main-text-100;
+    color: rgb(219, 219, 219);
+    background-color: inherit;
+    font-size: 1.17vw;
+    text-transform: uppercase;
+}
+
+/* .header__logo span {
+    font-family: common;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+} */
+
+
+
+.main__socials img {
+    width: 2.1vw;
+    height: 2.1vw;
+    margin-left: 15px;
+}

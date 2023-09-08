@@ -1,0 +1,178 @@
+@media (max-width: 1024px) {
+
+    .content-wrapper {
+        padding: 3% 12%
+    }
+
+    .header img {
+        width: 3.7vw;
+    }
+
+    .header__text {
+        font-size: 2.08vw;
+    }
+
+    .main {
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .main__title {
+        margin-right: 0;
+    }
+
+    .main__title span {
+        font-size: 9vw;
+    }
+
+    .main__img img {
+        width: 36.2vw;
+    }
+
+    .main__content {
+        max-width: 71%;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .main__text p:nth-child(1) {
+        font-size: 2.3vw;
+    }
+
+    .main__button {
+        padding: 2.7% 9.6%;
+    }
+
+    .main__socials img {
+        width: 2.9vw;
+        height: 2.9vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 3% 4%
+    }
+
+    .header img {
+        width: 4.98vw;
+    }
+
+    .header__text {
+        font-size: 2.77vw;
+    }
+
+    .main__socials img {
+        width: 30px;
+        /* height: px; */
+        margin-left: 10px;
+    }
+
+    .main__title span {
+        font-size: 11vw;
+    }
+
+    .main__img img {
+        width: 48.3vw;
+    }
+
+    .main__button {
+        padding: 3.1% 10.5%;
+    }
+
+    .main__button a {
+        font-size: 2.1vw;
+    }
+
+    .main__socials img {
+        width: 4.5vw;
+        height: 4.5vw;
+        margin-left: 15px;
+    }
+
+    .main__text p:nth-child(1) {
+        font-size: 3.1vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .main__title span {
+        font-size: 11.3vw;
+    }
+
+    .header img {
+        width: 7.97vw;
+    }
+
+    .header__text {
+        font-size: 4.43vw;
+    }
+
+    .content-wrapper {
+        padding: 3% 3%
+    }
+
+    .main__content {
+        max-width: none;
+    }
+
+    .main__img img {
+        width: 77.2vw;
+    }
+
+
+
+    .main__text p:nth-child(1) {
+        font-size: 4.5vw;
+    }
+
+    .main__links {
+        padding: 0 9%;
+    }
+
+    .main__button {
+        padding: 4.1% 14.8%;
+    }
+
+    .main__button a {
+        font-size: 3.3vw;
+    }
+
+    .main__socials img {
+        width: 6vw;
+        height: 6vw;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .header img {
+        width: 10.2vw;
+    }
+
+    .header__text {
+        font-size: 5.68vw;
+
+    }
+
+    .main__button a {
+        font-size: 4.26vw;
+    }
+
+    .main__img img {
+        width: 91.2vw;
+    }
+
+    .main__links {
+        flex-direction: column;
+    }
+    .main__socials{
+        margin-top: 20px;
+    }
+    .main__socials img {
+        width: 8vw;
+        height: 8vw;
+    }
+}
